@@ -209,7 +209,8 @@ type YAMLOptions struct {
 }
 
 type KustomizeOptions struct {
-	Dir string `json:"dir,omitempty"`
+	Dir          string `json:"dir,omitempty"`
+	BuildOptions string `json:"buildOptions,omitempty"`
 }
 
 type HelmOptions struct {
